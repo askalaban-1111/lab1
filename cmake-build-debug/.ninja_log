@@ -1,0 +1,5 @@
+# ninja log v7
+3	356	1790349905825860695	CMakeFiles/task1.dir/main.cpp.o	66256c175edbdaf3
+356	384	1790349906178824277	task1	bc2622751c00dc5d
+1	37	1790354182113018124	build.ninja	d0f00048a805f9e0
+1	37	1790354182112589752	/Users/andrei/CLionProjects/task1/cmake-build-debug/cmake_install.cmake	d0f00048a805f9e0
