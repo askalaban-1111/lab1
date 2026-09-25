@@ -5,3 +5,4 @@ cmake-build-release/
 *.exe
 *.obj
 *.o
+.DS_Store
