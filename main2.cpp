@@ -5,7 +5,10 @@ using namespace std;
 int main() {
     int planned;
     int completed;
+    int diff;
 
+    setlocale(LC_ALL, "Russian");
+    
     cout << "Введите запланированное количество: ";
     cin >> planned;
 
