@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-    unsigned int planned;
+    int planned;
     int completed;
 
     cout << "Введите запланированное количество: ";
@@ -12,7 +12,11 @@ int main() {
     cout << "Введите выполненное количество: ";
     cin >> completed;
 
-    int diff = static_cast<int>(planned) - completed;
+    if (planned < 0 || completed < 0) {
+        cout << "Ошибка ввода данных" << endl;
+    }
+
+    diff = planned - completed;
 
     if (diff > 0) {
         cout << "Осталось выполнить:" << diff << endl;
